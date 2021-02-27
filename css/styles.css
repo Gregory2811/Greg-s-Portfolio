@@ -8,6 +8,7 @@
 
 #header {
     position: fixed;
+    width: 100%;
 }
 
 #navLeft {
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 #main {
@@ -30,7 +32,7 @@
     justify-content: center;
     position:absolute ;
     z-index: -1;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -45,8 +47,9 @@ body {
 
 section {
     width: 100%;
-    display: table;
+    display: flex;
     position: relative;
+    justify-content: center;
 }
 
 
@@ -84,17 +87,17 @@ header {
 
 nav {
     width: auto;
-    float: right;
+    
 }
 
 nav ul {
-    display: table;
-    float: right;
+    display: flex;
+  
 }
 
 nav ul li {
     font-family: 'Lobster Two', cursive;
-    float: left;
+    
 }
 
 nav ul li:last-child {
@@ -148,7 +151,9 @@ label {
 }
 
 .content {
-    display: table;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 8%;
 }
 
@@ -320,7 +325,7 @@ label {
 /*photo de profil*/
 #picture {
     position: absolute;
-    left: 7%;
+    left: 3.5%;
 }
 
 
@@ -339,7 +344,7 @@ label {
 .headerTitle {
     background-color: black;
     color: var(--white);
-    letter-spacing: 0.7em;
+    letter-spacing: 0.3em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -775,20 +780,20 @@ div>span {
     position: relative;
     z-index: 1;
     text-align: center;
-    margin: 0 1.618em;
+    margin: 0 1.5em;
     top: 50%;
     opacity: 0;
   }
   .tl-content h1 {
     font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     color: #1779cf;
     font-size: 1.44rem;
     font-weight: normal;
   }
 
   .tl-content p {
-      font-size:1.2rem;
+      font-size:0.9rem;
+      color: #fff;
   }
   
   .tl-year {
@@ -821,7 +826,7 @@ div>span {
   }
 
   .tl-bg img {
-    height:60%;
+    height:100%;
   }
 
 
@@ -840,7 +845,7 @@ div>span {
     font-size: 16px;
     margin: 10px;
     max-width: 400px;
-    min-width: 300px;
+    min-width: 400px;
     overflow: hidden;
     position: relative;
     text-align: left;
@@ -896,7 +901,7 @@ div>span {
     right: 0px;
     z-index: 1;
     bottom: 0;
-    padding: 25px 40% 25px 20px;
+    padding: 10px 40% 25px 20px;
   }
   
   .snip1543 figcaption:before,
@@ -941,6 +946,7 @@ div>span {
   .snip1543 p {
     font-size: 1em;
     color: black;
+    margin-top: 2%;
   }
   
   .snip1543 a {
@@ -1055,7 +1061,7 @@ div>span {
   }
   
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1200px) {
 #header{position: relative;}
 .headerTitle{display: block;letter-spacing: 0em;height: auto;}
 #picture{display: none;}
@@ -1064,6 +1070,7 @@ div>span {
 #navAll{justify-content: space-between;align-content: center;align-items: center;}
 #navLeft{margin: 0;}
 #navRight{margin: 0;}
+nav ul li a{font-size:1rem}
 .social{margin: 0;}
 #main{margin:1rem;display: block;}
 #timeline{display: block;}
@@ -1074,7 +1081,7 @@ div>span {
 .tl-bg img{width: 100%;}
 .tl-content p {text-align: center; color: white;font-weight: bold;}
 .tl-content{top: 70%; margin: 0;}
-.portfolio{display: block;justify-content: center;}
+.portfolio{display: block;align-self: center;}
 .section{width: auto;}
 .snip1543{height:400px;width: 400px;}
 }
