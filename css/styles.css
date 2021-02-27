@@ -73,8 +73,7 @@ header {
 }
 
 #logo {
-    float: left;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(219, 209, 209);
     font-weight: 600;
     padding: 20px 0px;
