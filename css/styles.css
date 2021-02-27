@@ -728,7 +728,7 @@ div>span {
     position: relative;
     width: 30%;
     /* height: 100vh; */
-    min-height: 600px;
+    min-height: 520px;
     color: #fff;
     overflow: hidden;
     transition: width 0.5s ease;
