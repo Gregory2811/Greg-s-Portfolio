@@ -1091,4 +1091,5 @@ nav ul{display: block;}
 @media all and (max-width: 800px) {
     #blocGallery{display: none;}
     .headerTitle{display: none;}
+    #bgvid{display: none;}
 }
