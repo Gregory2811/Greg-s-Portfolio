@@ -324,7 +324,7 @@ label {
 /*photo de profil*/
 #picture {
     position: absolute;
-    left: 3.5%;
+    left: 5%;
 }
 
 
@@ -1060,7 +1060,7 @@ div>span {
   }
   
 
-@media all and (max-width: 1200px) {
+@media (min-height: 600px) and (max-width: 1200px) {
 #header{position: relative;}
 .headerTitle{display: block;letter-spacing: 0em;height: auto;}
 #picture{display: none;}
@@ -1073,14 +1073,22 @@ nav ul li a{font-size:1rem}
 .social{margin: 0;}
 #main{margin:1rem;display: block;}
 #timeline{display: block;}
-#timeline:hover .tl-item{width: 100%;transform: none;transition: none;}
+#timeline:hover .tl-item{width: 100%}
 .content{margin:0;margin-bottom: 3%;}
-.tl-item{width: 100%}
+.tl-item{width: 100%;min-height: 400px;}
 .tl-item:hover{width: 100% !important}
+.tl-item:before{background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.815) 0%);}
 .tl-bg img{width: 100%;}
-.tl-content p {text-align: center; color: white;font-weight: bold;}
-.tl-content{top: 70%; margin: 0;}
+.tl-content{ margin: 0;top:70%}
+.tl-content p {text-align: center;font-weight: bold;}
+.tl-year{top: 70%;}
 .portfolio{display: block;align-self: center;}
 .section{width: auto;}
-.snip1543{height:400px;width: 400px;}
+.snip1543{height:350px;width: 400px;}
+nav ul{display: block;}
+}
+
+@media all and (max-width: 800px) {
+    #blocGallery{display: none;}
+    .headerTitle{display: none;}
 }
