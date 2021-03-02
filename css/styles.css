@@ -12,7 +12,7 @@
 }
 footer {
     width:100%;
-    height:30%;
+    height:10%;
     background:transparent;
     }
 #navLeft {
@@ -980,7 +980,7 @@ nav ul li a{font-size:1rem}
 .tl-year{top: 70%;}
 .portfolio{display: block;align-self: center;}
 .section{width: auto;}
-.snip1543{height:370px;width: 350px;}
+.snip1543{height:380px;width: 350px;}
 #blocGallery{display: block;}
 
 }
