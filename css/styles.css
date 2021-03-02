@@ -203,11 +203,11 @@ label {
     transition: all 0.5s ease 0s;
 }
 
-/* @media only screen and (max-width: 1440px) {
+ @media only screen and (max-width: 1440px) {
     section {
         max-width: 95%;
     }
-} */
+} 
 
 @media only screen and (max-width: 980px) {
     header {
@@ -275,11 +275,11 @@ label {
     }
 }
 
-/* @media only screen and (max-width: 980px) {
+ @media only screen and (max-width: 980px) {
     .content {
         width: 90%;
     }
-} */
+} 
 
 /* @media only screen and (max-width: 568px) {
     h1 {
@@ -1060,13 +1060,13 @@ div>span {
   }
   
 
-@media (min-height: 600px) and (max-width: 1200px) {
+@media all and (max-width: 1200px) {
 #header{position: relative;}
 .headerTitle{display: block;letter-spacing: 0em;height: auto;}
 #picture{display: none;}
 #animationLetter{text-align: center;}
 #logo{padding: 0; font-size:1rem}
-#navAll{justify-content: space-between;align-content: center;align-items: center;}
+#navAll{flex-direction:space-between;align-items: center;}
 #navLeft{margin: 0;}
 #navRight{margin: 0;}
 nav ul li a{font-size:1rem}
@@ -1085,11 +1085,13 @@ nav ul li a{font-size:1rem}
 .portfolio{display: block;align-self: center;}
 .section{width: auto;}
 .snip1543{height:350px;width: 400px;}
-nav ul{display: block;}
+
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 960px) {
     #blocGallery{display: none;}
     .headerTitle{display: none;}
     #bgvid{display: none;}
+    nav ul{display: block;}
+    #navAll{display: block;}
 }
