@@ -1025,6 +1025,13 @@ nav ul li a{font-size:1rem}
         padding: 0px;
         z-index: 99;
     }
+    
+     .fab {
+        color:#1181f0 ;
+    }
+    .fas {
+        color:#1181f0 ;
+    }
 
 
     nav ul li a {
