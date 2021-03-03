@@ -992,7 +992,7 @@ nav ul li a{font-size:1rem}
     #bgvid{display: none;}
     nav ul{display: block;}
     #navAll{display: block;}
-
+    #navLeft{text-align: center;}   
 
     input[type=checkbox] {
         position: absolute;
