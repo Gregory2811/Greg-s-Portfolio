@@ -65,6 +65,9 @@ section {
     display: flex;
     position: relative;
     justify-content: center;
+    background-color: #01011a9a;
+    padding: 1.5rem;
+    border-radius: 2rem;
 }
 
 
@@ -980,7 +983,7 @@ nav ul li a{font-size:1rem}
 .tl-content p {text-align: center;font-weight: bold;}
 .tl-year{top: 70%;}
 .portfolio{display: block;align-self: center;}
-.section{width: auto;}
+section{width: auto;padding:0;}
 .snip1543{height:380px;width: 350px;}
 #blocGallery{display: block;}
 
